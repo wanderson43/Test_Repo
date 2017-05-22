@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  a(class="test" href="https://www.google.com/") this is a link to google
+
+  ol
+    li: a(href="https://www.facebook.com/Hanh1996") This is my friend Hanh's page
+    li: a(class="test" href="https://www.facebook.com/david.kennedy.73700136") This is my friend David's page / a test for css .class reference 
+    li: check this out
+    li this
+  
+  ul
+    li This is the first bullet point
+    li This is the second bullet point
+        ol
+          li: a(class="test" href="https://www.facebook.com/groups/GTmemesforbuzzedteens/") This is a facebook group
+          li: a(href="/") This is the second nested list
+    li This is the third Bullet point 
